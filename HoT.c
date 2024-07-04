@@ -23,6 +23,9 @@ int main(int argc, char *argv[]){
   }
 
   printf("Heads: %d, Tails: %d\n", headsCount, tailsCount);
+  if (headsCount > tailsCount)
+	  printf("You win!\n");
+  else printf("You lost!\n");
   return 0;
 }
 
