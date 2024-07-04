@@ -31,17 +31,9 @@ int main(){
 		} 
 	}
 
-<<<<<<< HEAD
 	printf("Heads: %d, Tails: %d\n", headsCount, tailsCount);
 	if (headsCount > tailsCount)
-		printf("You win!\n");
-	else printf("You lost!\n");
+		printf("%s win!\n", name);
+	else printf("%s lost!\n", name);
 	return 0;
-=======
-	printf("Heads: %d, Tails: %d\n", headsCount, tailsCount);
-	if (headsCount > tailsCount)
-		printf("You win!\n");
-	else printf("You lost!\n");
-	return 0;
->>>>>>> user_name
 }
